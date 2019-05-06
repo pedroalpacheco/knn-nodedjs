@@ -9,8 +9,8 @@ const dados = [2,1,1];
 const pr = knn.predict(dados);
 
 if(pr=='0'){
-    console.log('Resultado = '+pr+ ' - Considerado: RUIM')
+    console.log('Resultado = '+pr+ ' - Considerado: NEGATIVO')
 }else{
-    console.log('Resultado = '+pr+ ' - Considerado: BOM')
+    console.log('Resultado = '+pr+ ' - Considerado: POSITIVO')
 }
 

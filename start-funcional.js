@@ -7,9 +7,9 @@ var knn = new KNN(entrada , predicao);
 function avalia(dados){
     const pr = knn.predict(dados);
     if(pr=='0'){
-        console.log('Resultado = '+pr+ ' - Considerado: RUIM')
+        console.log('Resultado = '+pr+ ' - Considerado: NEGATIVO')
     }else{
-        console.log('Resultado = '+pr+ ' - Considerado: BOM')
+        console.log('Resultado = '+pr+ ' - Considerado: POSITIVO')
     }
 }
 
