@@ -31,5 +31,5 @@ const pr = knn.predict(dados)
 if(pr=='0'){
     console.log('Dados: '+ '- [ '+dados+' ] - ' +'Resultado = '+pr+ ' - Considerado: NEGATIVO')
 }else{
-    console.log('Dados: '+ '- [ '+dados+' ] -' +'Resultado = '+pr+ ' - Considerado: POSITIVO')
+    console.log('Dados: '+ '- [ '+dados+' ] - ' +'Resultado = '+pr+ ' - Considerado: POSITIVO')
 }
